@@ -1,7 +1,6 @@
 # PX4-Rover
 ```
 git clone -b v1.11.2 https://github.com/PX4/PX4-Autopilot.git
-
 ```
 This repo is used to add our custom models on PX4 simulations.
 
