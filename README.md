@@ -18,4 +18,7 @@ This repo is used to add our custom models on PX4 simulations.
 
 ## marsyard
 
-For marsyard you should cone `blender_gazebo` and `marsyard` texture into the ros workspace which contains mavros and mavlink package and change sdf path to according to this README https://github.com/Kokjix/Simulations.git
+For marsyard you should clone `blender_gazebo` and `marsyard` texture into the ros workspace which contains mavros and mavlink package and change sdf path to according to this README https://github.com/Kokjix/Simulations.git
+
+marsyard: [https://github.com/itu-rover/Simulations.git](https://github.com/itu-rover/Simulations.git)
+blender_gazebo: [https://github.com/Kokjix/blender_gazebo.git](https://github.com/Kokjix/blender_gazebo.git)
