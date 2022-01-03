@@ -15,3 +15,7 @@ This repo is used to add our custom models on PX4 simulations.
 3- rover_21.world copied to Tools/sitl_gazebo/worlds
 
 4- sitl_target.cmake copied and changed to platforms/posix/cmake/sitl_target.cmake
+
+## marsyard
+
+For marsyard you should cone `blender_gazebo` and `marsyard` texture into the ros workspace which contains mavros and mavlink package and change sdf path to according to this README https://github.com/Kokjix/Simulations.git
