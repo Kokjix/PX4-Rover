@@ -16,6 +16,8 @@ This repo is used to add our custom models on PX4 simulations.
 
 4- sitl_target.cmake copied and changed to platforms/posix/cmake/sitl_target.cmake
 
+5- posix_sitl.launch copied to launch/posix_sitl.launch
+
 ## marsyard
 
 For marsyard you should clone `blender_gazebo` and `marsyard` texture into the ros workspace which contains mavros and mavlink package and change sdf path to according to this README https://github.com/Kokjix/Simulations.git
