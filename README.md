@@ -24,10 +24,18 @@ make px4_sitl gazebo_rover_21 #Running simulation with PX4
 roslaunch px4 mavros_posix_sitl.launch vehicle:="rover_21" #Running with PX4 ROS Wrapped
 ```
 
-## marsyard
+## Marsyard with ARTags Environment
+```
+git clone --recurse-submodules https://github.com/itu-rover/Simulations.git
+```
+1- Clone "blender_gazebo" and "marsyard" packages into the ros workspace which contains mavros and mavlink packages.
 
-For marsyard you should clone `blender_gazebo` and `marsyard` texture into the ros workspace which contains mavros and mavlink package and change sdf path to according to this README https://github.com/Kokjix/Simulations.git
+2- Dowload git lfs and follow the instructions in https://drive.google.com/file/d/1v8TXeXEdQh3YSndxKcN7ITRKnqt_aL_D/view?usp=sharing 
 
-marsyard: [https://github.com/itu-rover/Simulations.git](https://github.com/itu-rover/Simulations.git)
+3- Edit "blender_gazebo/sdf/landmark.sdf.xacro" file according to your file path
 
-blender_gazebo: [https://github.com/Kokjix/blender_gazebo.git](https://github.com/Kokjix/blender_gazebo.git)
+For run this:
+```
+roslaunch px4 posix_sitl.launch
+```
+DON'T FORGET START SIMULATION (bottom left start button) WHEN GAZEBO LAUNCHED
