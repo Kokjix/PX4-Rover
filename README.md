@@ -6,7 +6,7 @@ cd ~/PX4-Autopilot/
 
 git checkout v1.11.2
 ```
-This repo is used to add our custom models on PX4 simulations.
+This repo is used to add our custom model (Rover with Aruco-Tag) on PX4 simulations.
 
 1- 3131 rover_21 copied to ROMFS/px4fmu_common/init.d-posix
 
