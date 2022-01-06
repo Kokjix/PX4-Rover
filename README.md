@@ -18,6 +18,12 @@ This repo is used to add our custom models on PX4 simulations.
 
 5- posix_sitl.launch copied to launch/posix_sitl.launch
 
+For run this: 
+```
+make px4_sitl gazebo_rover_21
+roslaunch px4 mavros_posix_sitl.launch vehicle:="rover_21" #This is ROS Wrapped
+```
+
 ## marsyard
 
 For marsyard you should clone `blender_gazebo` and `marsyard` texture into the ros workspace which contains mavros and mavlink package and change sdf path to according to this README https://github.com/Kokjix/Simulations.git
