@@ -20,8 +20,8 @@ This repo is used to add our custom models on PX4 simulations.
 
 For run this: 
 ```
-make px4_sitl gazebo_rover_21
-roslaunch px4 mavros_posix_sitl.launch vehicle:="rover_21" #This is ROS Wrapped
+make px4_sitl gazebo_rover_21 #Running simulation with PX4
+roslaunch px4 mavros_posix_sitl.launch vehicle:="rover_21" #Running with PX4 ROS Wrapped
 ```
 
 ## marsyard
