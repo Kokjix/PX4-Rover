@@ -20,11 +20,11 @@ This repo is used to add our custom model (Rover with Aruco-Tag) on PX4 simulati
 
 For run this: 
 ```
-DONT_RUN=1 make px4_sitl gazebo
+DONT_RUN=1 make px4_sitl gazebo #for PX4 build
 make px4_sitl gazebo_rover_21 #Running simulation with PX4
 roslaunch px4 mavros_posix_sitl.launch vehicle:="rover_21" #Running with PX4 ROS Wrapped
 ```
-##Iris Drone Model with Dual Cam 
+## Iris Drone Model with Dual Cam 
 
 Note: It is for newer PX4-Autopilot version. Front and down camera added using .sdf files.
 
